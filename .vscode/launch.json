@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "devtool",
+      "request": "launch",
+      "program": "${workspaceFolder}/devtool/lib/main.dart",
+      "type": "dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--dart-define=use_simulated_environment=true"
+      ],
+    },
+  ]
+}
